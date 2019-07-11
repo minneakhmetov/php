@@ -1,0 +1,13 @@
+< 2019-07-11 07:27:33.094 EDT > FATAL:  password authentication failed for user "saiple"
+< 2019-07-11 07:27:33.094 EDT > DETAIL:  Password does not match for user "saiple".
+	Connection matched pg_hba.conf line 91: "host    all             all             0.0.0.0/0               md5"
+< 2019-07-11 07:27:38.002 EDT > FATAL:  password authentication failed for user "saiple"
+< 2019-07-11 07:27:38.002 EDT > DETAIL:  Password does not match for user "saiple".
+	Connection matched pg_hba.conf line 91: "host    all             all             0.0.0.0/0               md5"
+< 2019-07-11 07:27:44.474 EDT > FATAL:  password authentication failed for user "saiple"
+< 2019-07-11 07:27:44.474 EDT > DETAIL:  Password does not match for user "saiple".
+	Connection matched pg_hba.conf line 91: "host    all             all             0.0.0.0/0               md5"
+< 2019-07-11 07:29:00.748 EDT > ERROR:  syntax error at or near "SELECT" at character 15
+< 2019-07-11 07:29:00.748 EDT > STATEMENT:  SELECT * FROM SELECT inet_server_addr();
+< 2019-07-11 07:33:13.036 EDT > ERROR:  syntax error at or near ")" at character 21
+< 2019-07-11 07:33:13.036 EDT > STATEMENT:  select current_time()

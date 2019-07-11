@@ -1,0 +1,41 @@
+< 2019-07-10 16:53:52.160 EDT > LOG:  database system was shut down at 2019-07-10 16:53:37 EDT
+< 2019-07-10 16:53:52.162 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 16:53:52.164 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 16:53:52.167 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 17:02:53.726 EDT > LOG:  received fast shutdown request
+< 2019-07-10 17:02:53.726 EDT > LOG:  aborting any active transactions
+< 2019-07-10 17:02:53.727 EDT > LOG:  autovacuum launcher shutting down
+< 2019-07-10 17:02:53.728 EDT > LOG:  shutting down
+< 2019-07-10 17:02:53.736 EDT > LOG:  database system is shut down
+< 2019-07-10 17:02:53.790 EDT > LOG:  database system was shut down at 2019-07-10 17:02:53 EDT
+< 2019-07-10 17:02:53.791 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 17:02:53.794 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 17:02:53.794 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 17:17:59.880 EDT > LOG:  invalid length of startup packet
+< 2019-07-10 17:19:09.005 EDT > ERROR:  syntax error at or near "databace" at character 8
+< 2019-07-10 17:19:09.005 EDT > STATEMENT:  create databace test;
+< 2019-07-10 17:44:30.886 EDT > LOG:  received fast shutdown request
+< 2019-07-10 17:44:30.886 EDT > LOG:  aborting any active transactions
+< 2019-07-10 17:44:30.886 EDT > LOG:  autovacuum launcher shutting down
+< 2019-07-10 17:44:30.886 EDT > FATAL:  terminating connection due to administrator command
+< 2019-07-10 17:44:30.888 EDT > FATAL:  terminating connection due to administrator command
+< 2019-07-10 17:44:30.891 EDT > LOG:  shutting down
+< 2019-07-10 17:44:30.908 EDT > LOG:  database system is shut down
+< 2019-07-10 17:44:30.959 EDT > LOG:  database system was shut down at 2019-07-10 17:44:30 EDT
+< 2019-07-10 17:44:30.960 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 17:44:30.963 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 17:44:30.964 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 17:47:00.477 EDT > FATAL:  no pg_hba.conf entry for host "46.191.225.156", user "saiple", database "postgres", SSL off
+< 2019-07-10 17:47:00.513 EDT > FATAL:  no pg_hba.conf entry for host "46.191.225.156", user "saiple", database "postgres", SSL off
+< 2019-07-10 17:47:05.084 EDT > FATAL:  no pg_hba.conf entry for host "46.191.225.156", user "saiple", database "postgres", SSL off
+< 2019-07-10 17:47:05.119 EDT > FATAL:  no pg_hba.conf entry for host "46.191.225.156", user "saiple", database "postgres", SSL off
+< 2019-07-10 17:48:37.976 EDT > LOG:  received fast shutdown request
+< 2019-07-10 17:48:37.976 EDT > LOG:  aborting any active transactions
+< 2019-07-10 17:48:37.976 EDT > LOG:  autovacuum launcher shutting down
+< 2019-07-10 17:48:37.979 EDT > LOG:  shutting down
+< 2019-07-10 17:48:37.999 EDT > LOG:  database system is shut down
+< 2019-07-10 17:48:38.040 EDT > LOG:  database system was shut down at 2019-07-10 17:48:37 EDT
+< 2019-07-10 17:48:38.042 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 17:48:38.044 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 17:48:38.044 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 20:01:19.900 EDT > LOG:  could not receive data from client: Connection timed out

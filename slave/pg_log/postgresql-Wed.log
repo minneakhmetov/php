@@ -1,0 +1,60 @@
+< 2019-07-10 16:53:52.160 EDT > LOG:  database system was shut down at 2019-07-10 16:53:37 EDT
+< 2019-07-10 16:53:52.162 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 16:53:52.164 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 16:53:52.167 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 17:02:53.726 EDT > LOG:  received fast shutdown request
+< 2019-07-10 17:02:53.726 EDT > LOG:  aborting any active transactions
+< 2019-07-10 17:02:53.727 EDT > LOG:  autovacuum launcher shutting down
+< 2019-07-10 17:02:53.728 EDT > LOG:  shutting down
+< 2019-07-10 17:02:53.736 EDT > LOG:  database system is shut down
+< 2019-07-10 17:02:53.790 EDT > LOG:  database system was shut down at 2019-07-10 17:02:53 EDT
+< 2019-07-10 17:02:53.791 EDT > LOG:  MultiXact member wraparound protections are now enabled
+< 2019-07-10 17:02:53.794 EDT > LOG:  database system is ready to accept connections
+< 2019-07-10 17:02:53.794 EDT > LOG:  autovacuum launcher started
+< 2019-07-10 17:14:54.105 EDT > LOG:  database system was interrupted; last known up at 2019-07-10 17:13:17 EDT
+< 2019-07-10 17:14:54.161 EDT > LOG:  entering standby mode
+< 2019-07-10 17:14:54.164 EDT > LOG:  redo starts at 0/2000028
+< 2019-07-10 17:14:54.165 EDT > LOG:  consistent recovery state reached at 0/2000130
+< 2019-07-10 17:14:54.174 EDT > LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+< 2019-07-10 17:17:48.169 EDT > LOG:  invalid length of startup packet
+< 2019-07-10 17:19:55.108 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:20:22.612 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:22:12.686 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:22:27.949 EDT > LOG:  received fast shutdown request
+< 2019-07-10 17:22:27.951 EDT > FATAL:  terminating walreceiver process due to administrator command
+< 2019-07-10 17:22:27.953 EDT > LOG:  shutting down
+< 2019-07-10 17:22:27.957 EDT > LOG:  database system is shut down
+< 2019-07-10 17:22:28.014 EDT > LOG:  database system was shut down in recovery at 2019-07-10 17:22:27 EDT
+< 2019-07-10 17:22:28.014 EDT > LOG:  entering standby mode
+< 2019-07-10 17:22:28.017 EDT > LOG:  redo starts at 0/30008B0
+< 2019-07-10 17:22:28.017 EDT > LOG:  consistent recovery state reached at 0/30009D8
+< 2019-07-10 17:22:28.017 EDT > LOG:  invalid record length at 0/30009D8: wanted 24, got 0
+< 2019-07-10 17:22:28.027 EDT > LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+< 2019-07-10 17:22:30.835 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:23:49.832 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:24:37.467 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:42:29.706 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:42:31.217 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:42:32.556 EDT > FATAL:  the database system is starting up
+< 2019-07-10 17:44:30.906 EDT > LOG:  replication terminated by primary server
+< 2019-07-10 17:44:30.906 EDT > DETAIL:  End of WAL reached on timeline 1 at 0/3000EA8.
+< 2019-07-10 17:44:30.906 EDT > FATAL:  could not send end-of-streaming message to primary: no COPY in progress
+	
+< 2019-07-10 17:44:30.906 EDT > LOG:  invalid record length at 0/3000EA8: wanted 24, got 0
+< 2019-07-10 17:44:30.910 EDT > FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "185.252.146.89" and accepting
+		TCP/IP connections on port 5432?
+	
+< 2019-07-10 17:44:35.919 EDT > LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+< 2019-07-10 17:48:37.995 EDT > LOG:  replication terminated by primary server
+< 2019-07-10 17:48:37.995 EDT > DETAIL:  End of WAL reached on timeline 1 at 0/30013E0.
+< 2019-07-10 17:48:37.996 EDT > FATAL:  could not send end-of-streaming message to primary: no COPY in progress
+	
+< 2019-07-10 17:48:37.996 EDT > LOG:  invalid record length at 0/30013E0: wanted 24, got 0
+< 2019-07-10 17:48:38.000 EDT > FATAL:  could not connect to the primary server: could not connect to server: Connection refused
+		Is the server running on host "185.252.146.89" and accepting
+		TCP/IP connections on port 5432?
+	
+< 2019-07-10 17:48:43.009 EDT > LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+< 2019-07-10 18:23:26.918 EDT > FATAL:  the database system is starting up
+< 2019-07-10 18:23:27.900 EDT > FATAL:  the database system is starting up
